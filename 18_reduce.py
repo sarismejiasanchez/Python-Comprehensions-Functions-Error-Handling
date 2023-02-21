@@ -29,3 +29,7 @@ numbers = [random.randint(1, 10) for i in range(1, 10)]
 print(numbers)
 result = functools.reduce(mayor, numbers)
 print("Mayor valor =>", result)
+
+# Usando la funcion max
+result = functools.reduce(max, numbers)
+print("Mayor valor =>", result)
