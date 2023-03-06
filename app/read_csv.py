@@ -17,7 +17,7 @@ def read_csv(path):
       print(row)
 '''
 # Convertir lista de registro a diccionario
-'''
+
 def read_csv(path):
   with open(path, "r") as csvfile:
     reader = csv.reader(csvfile, delimiter = ",")
@@ -35,7 +35,7 @@ def read_csv(path):
 if __name__ == '__main__':
   data = read_csv('./app/world_population.csv')
   print(data[0])
-'''
+
 
 # Playground: Lee un CSV para calcular el total de gastos
 '''
@@ -53,7 +53,7 @@ Human Resources,20
 
 Output:
 60
-'''
+
 #import csv
 
 def read_csv(path):
@@ -67,3 +67,4 @@ def read_csv(path):
 
 response = read_csv('./app/data.csv')
 print(response)
+'''
